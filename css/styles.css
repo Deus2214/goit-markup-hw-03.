@@ -1,0 +1,425 @@
+.head {
+  text-decoration: none;
+}
+.body {
+  background-color: #fff;
+  font-family: "Roboto";
+
+  text-decoration: none;
+}
+
+.header {
+  /* top line bg */
+
+  background: #ffffff;
+}
+.logo {
+  color: #2196f3;
+  font-family: "Raleway";
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+
+.logo-1 {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Raleway";
+}
+
+.item {
+  /* Студія */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+.item-1 {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.item-2 {
+  /* Контакти */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.item-3 {
+  /* info@devstudio.com */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+ 
+}
+
+.item-4 {
+  /* +38 096 111 11 11 */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.section-1 {
+  /* Bg */
+
+  background: #2f303a;
+}
+.title {
+  /* Ефективні рішення для вашого бізнесу */
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.button {
+   color: #fff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+ 
+  letter-spacing: 0.06em;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: transparent;
+}
+
+.main-title {
+  /* Особливості */
+}
+.uppertitle {
+  /* УВАГА ДО ДЕТАЛЕЙ */
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.uppertitle-2 {
+  /* ПУНКТУАЛЬНІСТЬ */
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.uppertitle-3 {
+  /* ПЛАНУВАННЯ */
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.uppertitle-4 {
+  /* СУЧАСНІ ТЕХНОЛОГІЇ */
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.text {
+  /* Ідейні міркування, і навіть початок повсякденної роботи з формування позиції. */
+
+  font-size: 14px;
+  line-height: 1.2;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+ 
+
+.text-2 {
+  /* Так само консультація з широким активом значною мірою зумовлює. */
+
+  font-size: 14px;
+  line-height: 1.2;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.text-3 {
+  /* Значимість цих проблем настільки очевидна, що реалізація планових завдань. */
+
+  font-size: 14px;
+  line-height: 1.2;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.paragraph {
+  /* Чим ми займаємося */
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2.4;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.img-1 {
+  /* img */
+
+  background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
+  mix-blend-mode: normal;
+}
+.img-2 {
+  /* img */
+
+  background: url(web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg);
+}
+.img-3 {
+  /* img */
+
+  background: url(creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg);
+}
+
+.maintitle-2 {
+  /* Наша команда */
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 2.4;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.img-5 {
+  /* img */
+
+  background: url(2968.jpg);
+  border-radius: 0px;
+}
+
+.img-6 {
+  /* img */
+  background: url(5844.jpg);
+  border-radius: 0px;
+}
+.img-7 {
+  background: url(16166.jpg);
+  border-radius: 0px;
+}
+.img-8 {
+  /* img */
+
+  background: url(4853.jpg);
+  border-radius: 0px;
+}
+.section-title {
+  /* Ігор Дем'яненко */
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.section-title2 {
+  /* Ольга Рєпіна */
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.section-title3 {
+  /* Микола Тарасов */
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.section-title4 {
+  /* Михайло Єрмаков */
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.work-1 {
+  /* Product Designer */
+
+  line-height: 1.2;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.work-2 {
+  /* Frontend Developer */
+
+  line-height: 1.2;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.work-3 {
+  /* Marketing */
+
+  line-height: 1.2;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.work-4 {
+  /* UI Designer */
+
+  line-height: 1.2;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.footer {
+  /* Footer bg */
+
+  background: #2f303a;
+}
+
+.logo12 {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.5;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+.logo2 {
+  color: #ffffff;
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+}
+
+.address-list {
+  /* м. Київ, пр-т Лесі Українки, 26 */
+
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.mail {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.2;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.tell {
+  text-decoration: none;
+
+  font-size: 14px;
+  line-height: 1.2;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.list {
+  list-style: none;
+}

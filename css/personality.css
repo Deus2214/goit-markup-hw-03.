@@ -1,0 +1,514 @@
+.body {
+  /* Портфоліо */
+  font-family: "Roboto";
+
+  text-decoration: none;
+
+  background: #ffffff;
+}
+.header {
+  /* top line bg */
+  text-decoration: none;
+
+  background: #ffffff;
+}
+.list {
+  list-style: none;
+}
+.logo-web {
+  /* WebStudio */
+  text-decoration: none;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.4;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.logo-studio {
+  color: #000000;
+  text-decoration: none;
+}
+
+.current {
+  /* Студія */
+  text-decoration: none;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.current-2 {
+  /* Портфоліо */
+  text-decoration: none;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+.current-3 {
+  /* Контакти */
+  text-decoration: none;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.current-4 {
+  /* info@devstudio.com */
+  text-decoration: none;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+.current-5 {
+  /* +38 096 111 11 11 */
+  text-decoration: none;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.main-title {
+  left: 1078px;
+  right: 1078px;
+  display: flex;
+}
+.filters{display: flex;}
+ 
+
+  .filters .button.button-item {
+     /* Rectangle 10 */
+    display: inline-block;
+    padding: 6px 22px;
+    border-radius: 4px;
+    min-height: 38px;
+    border: transparent;
+    color: var(--title-text-color);
+    background-color: var(--secondary-bg-color);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: inherit;
+  }
+  .filters .button:hover,
+  .filters .button:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-bg-color);
+  }
+.filters-8{
+  display: flex;
+  justify-content: space-around;
+  width: 1170px;
+height: 1360px;
+}
+.title-2 {
+  /* Веб-сайти */
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.title-3 {
+  /* Додатки */
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.title-4 {
+  /* Дизайн */
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.title-5 {
+  /* Маркетинг */
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+
+.img-1 {
+  /* img */
+
+  background: url(portfolio1.jpg);
+}
+.img-2 {
+  /* img */
+
+  background: url(portfolio2.jpg);
+}
+.img-3 {
+  /* img */
+
+  background: url(portfolio-1.jpg);
+}
+.img-4 {
+  /* img */
+
+  background: url(portfolio-2.jpg);
+}
+.img-5 {
+  /* img */
+
+  background: url(portfolio5.jpg);
+}
+.img-6 {
+  /* img */
+
+  background: url(111.jpg);
+}
+.img-7 {
+  /* img */
+
+  background: url(portfolio7.jpg);
+}
+.img-8 {
+  /* img */
+
+  background: url(portfolio8.jpg);
+}
+
+.img-9 {
+  /* img */
+
+  background: url(2910404.jpg);
+}
+
+.name-1 {
+  /* Технокряк */
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.4;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.name-2 {
+  /* Постер New Orlean vs Golden Star */
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.4;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.name-3 {
+  /* Ресторан Seafood */
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.4;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.name-4 {
+  /* Проєкт Prime */
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.4;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.name-5 {
+  /* Проєкт Boxes */
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.4;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.name-6 {
+  /* Inspiration has no Borders */
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.4;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.name-7 {
+  /* Видання Limited Edition */
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.4;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.name-8 {
+  /* Проєкт LAB */
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.name-9 {
+  /* Growing Business */
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.text-1 {
+  /* Веб-сайт */
+
+  font-weight: 400;
+ 
+  line-height: 1.2;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.text-2 {
+  /* Дизайн */
+
+  font-weight: 400;
+
+  line-height: 1.2;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.text-3 {
+  /* Додаток */
+
+  font-weight: 400;
+ 
+  line-height: 1.2;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.text-4 {
+  /* Маркетинг */
+
+  font-weight: 400;
+ 
+  line-height: 1.2;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.text-5 {
+  /* Додаток */
+
+  font-weight: 400;
+ 
+  line-height: 1.2;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.text-6 {
+  /* Веб-сайт */
+
+  font-weight: 400;
+  line-height: 1.2;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.text-7 {
+  /* Дизайн */
+
+  font-weight: 400;
+  
+  line-height: 1.2;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.text-8 {
+  /* Маркетинг */
+
+  font-weight: 400;
+  
+  line-height: 1.2;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.text-9 {
+  /* Додаток */
+
+  font-weight: 400;
+
+  line-height: 1.2;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.footer {
+  /* Footer bg */
+
+  background: #2f303a;
+}
+
+.logo12 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 2;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+.logo2 {
+  color: #ffffff;
+}
+.adress {
+  font-family: "Raleway";
+  font-style: normal;
+}
+.adress-1 {
+  /* м. Київ, пр-т Лесі Українки, 26 */
+  text-decoration: none;
+  font-family: "Raleway";
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.mail {
+  text-decoration: none;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.tell {
+  text-decoration: none;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
