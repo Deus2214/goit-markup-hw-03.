@@ -1,8 +1,8 @@
-html{
+html {
   box-sizing: border-box;
 }
-*, 
-*::before, 
+*,
+*::before,
 *::after {
   box-sizing: inherit;
 }
@@ -17,25 +17,26 @@ html{
 }
 .header {
   /* top line bg */
-padding-top: 25px;
-padding-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   text-decoration: none;
   background: #ffffff;
 }
-.container{
+.container {
   width: 1200px;
- padding-left: 15px;
- padding-right: 15px;
- margin-left: auto;
- margin-right: auto;
- outline: 2px;}
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px;
+}
 
- .header-container{
+.header-container {
   align-items: center;
   display: flex;
   justify-content: space-between;
 }
-.list-display{
+.list-display {
   display: flex;
   gap: 50px;
 }
@@ -43,10 +44,11 @@ padding-bottom: 25px;
 .list {
   list-style: none;
 }
-ul{
+ul {
   margin: 0;
   padding: 0;
-  list-style: none;}
+  list-style: none;
+}
 
 .logo-web {
   /* WebStudio */
@@ -66,7 +68,6 @@ ul{
   color: #2196f3;
 }
 .logo-studio {
- 
   color: #000000;
   text-decoration: none;
 }
@@ -137,59 +138,55 @@ ul{
   right: 1078px;
   display: flex;
   color: #2196f3;
-  
 }
-.section{
+.section {
   margin: 94px 94px;
 }
-.filters{
+.filters {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
- margin-top: 132px;
- padding-right: 8px;
- 
-  }
- 
+  margin-top: 132px;
+  padding-right: 8px;
+}
 
-  .filters .button.button-item {
-     /* Rectangle 10 */
-   
-     
-    border-radius: 4px;
-    min-height: 38px;
-    border: transparent;
-    color: var(--title-text-color);
-    background-color: var(--secondary-bg-color);
-    cursor: pointer;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: inherit;
-  }
-  .button-2{
-    padding: 6px 22px;
-    border-radius: 4px;
-    min-height: 38px;
-    border: transparent;
-    background-color: var(--secondary-bg-color);
-    cursor: pointer;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: inherit;
-  }
-  .filters .button .button-2:hover,
-  .filters .button  .button-2:focus {
-    color: var(--white-text-color);
-    background-color: var(--accent-bg-color);
-  }
-.filters-8{
+.filters .button.button-item {
+  /* Rectangle 10 */
+
+  border-radius: 4px;
+  min-height: 38px;
+  border: transparent;
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: inherit;
+}
+.button-2 {
+  padding: 6px 22px;
+  border-radius: 4px;
+  min-height: 38px;
+  border: transparent;
+  background-color: var(--secondary-bg-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: inherit;
+}
+.filters .button .button-2:hover,
+.filters .button .button-2:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-bg-color);
+}
+.filters-8 {
   display: flex;
-flex-wrap: wrap;
-margin-top: 56px;
+  flex-wrap: wrap;
+  margin-top: 56px;
 }
 .title-2 {
   /* Веб-сайти */
@@ -245,7 +242,6 @@ margin-top: 56px;
 
   color: #212121;
 }
-
 
 .img-1 {
   /* img */
@@ -406,7 +402,7 @@ margin-top: 56px;
   /* Веб-сайт */
 
   font-weight: 400;
- 
+
   line-height: 1.2;
   /* identical to box height, or 188% */
 
@@ -431,7 +427,7 @@ margin-top: 56px;
   /* Додаток */
 
   font-weight: 400;
- 
+
   line-height: 1.2;
   /* identical to box height, or 188% */
 
@@ -443,7 +439,7 @@ margin-top: 56px;
   /* Маркетинг */
 
   font-weight: 400;
- 
+
   line-height: 1.2;
   /* identical to box height, or 188% */
 
@@ -455,7 +451,7 @@ margin-top: 56px;
   /* Додаток */
 
   font-weight: 400;
- 
+
   line-height: 1.2;
   /* identical to box height, or 188% */
 
@@ -479,7 +475,7 @@ margin-top: 56px;
   /* Дизайн */
 
   font-weight: 400;
-  
+
   line-height: 1.2;
   /* identical to box height, or 188% */
 
@@ -491,7 +487,7 @@ margin-top: 56px;
   /* Маркетинг */
 
   font-weight: 400;
-  
+
   line-height: 1.2;
   /* identical to box height, or 188% */
 
@@ -515,8 +511,8 @@ margin-top: 56px;
   display: inline-block;
   width: 1600px;
   /* Footer bg */
-background: #2f303a;
-margin-left: 400px;
+  background: #2f303a;
+  margin-left: 400px;
 }
 
 .logo12 {
@@ -524,13 +520,12 @@ margin-left: 400px;
   font-weight: 700;
   font-size: 26px;
   line-height: 2;
- 
-height: 31px;
-width: 145px;
-left: 215px;
-top: 1688px;
-  /* identical to box height */
 
+  height: 31px;
+  width: 145px;
+  left: 215px;
+  top: 1688px;
+  /* identical to box height */
 
   color: #2196f3;
 }
@@ -553,7 +548,6 @@ top: 1688px;
 
   /* or 171% */
 
-
   letter-spacing: 0.03em;
 
   color: #ffffff;
@@ -564,7 +558,7 @@ top: 1688px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.4;
- 
+
   /* or 171% */
 
   letter-spacing: 0.03em;
