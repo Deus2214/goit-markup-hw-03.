@@ -4,7 +4,7 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 .body {
@@ -50,45 +50,33 @@ ul {
   list-style: none;
 }
 
-.logo-web {
+.logo {
   /* WebStudio */
+  color: #2196f3;
+  font-family: "Raleway";
   text-decoration: none;
-  margin-right: 91px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  display: block;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.4;
+  line-height: 1.2;
+  margin-right: 91px;
+
+  display: block;
   /* identical to box height */
 
   letter-spacing: 0.03em;
-
-  color: #2196f3;
+  /* identical to box height */
+  
+  
 }
-.logo-studio {
+.logo-1{
   color: #000000;
   text-decoration: none;
+  font-family: "Raleway";
 }
 
-.current {
+.item {
   /* Студія */
   text-decoration: none;
-
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-
-  color: #212121;
-}
-.current-2 {
-  /* Портфоліо */
-  text-decoration: none;
-
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -96,11 +84,19 @@ ul {
 
   color: #2196f3;
 }
-.current-3 {
+
+.item-1 {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: #212121;}
+
+.item-2 {
   /* Контакти */
   text-decoration: none;
-
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -109,11 +105,9 @@ ul {
   color: #212121;
 }
 
-.current-4 {
+.item-3 {
   /* info@devstudio.com */
   text-decoration: none;
-
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -121,11 +115,9 @@ ul {
 
   color: #2196f3;
 }
-.current-5 {
+.item-4 {
   /* +38 096 111 11 11 */
   text-decoration: none;
-
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -144,10 +136,10 @@ ul {
 }
 .filters {
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 132px;
-  padding-right: 8px;
+  gap: 8px;
+  
 }
 
 .filters .button.button-item {
@@ -186,6 +178,7 @@ ul {
 .filters-8 {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-top: 56px;
 }
 .title-2 {
@@ -533,48 +526,46 @@ ul {
 .logo2 {
   color: #ffffff;
 }
-.adress {
+.address {
   font-family: "Raleway";
   font-style: normal;
 }
-.adress-1 {
+.address-list {
   /* м. Київ, пр-т Лесі Українки, 26 */
-  display: inline-block;
-  text-decoration: none;
-  font-family: "Raleway";
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.4;
 
+ 
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-bottom: 9px;
   /* or 171% */
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;
-}
+  color: #ffffff;}
+
 .mail {
   text-decoration: none;
-
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.4;
-
+  line-height: 1.2;
   /* or 171% */
 
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
 }
+
 .tell {
   text-decoration: none;
 
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.4;
-
+  line-height: 1.2;
   /* or 171% */
 
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
 }
+.list-group:not(last-child) {margin-bottom: 9;}
+ 
