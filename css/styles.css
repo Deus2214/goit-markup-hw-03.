@@ -123,8 +123,12 @@ ul{
 }
 .section-1 {
   /* Bg */
-
+padding: 200px 0;
+text-align: center;
   background: #2f303a;
+}
+.section-2{
+  padding: 94px 0;
 }
 .title {
   /* Ефективні рішення для вашого бізнесу */
@@ -161,6 +165,13 @@ ul{
 
 .main-title {
   /* Особливості */
+}
+.list-2{
+ display: flex;
+ gap: 50px;
+}
+.list-item{
+  width: 270px;
 }
 .uppertitle {
   /* УВАГА ДО ДЕТАЛЕЙ */
@@ -253,6 +264,11 @@ ul{
 
   color: #212121;
 }
+.image-list{
+  display: flex;
+ gap: 50px;
+ padding-top: 50px;
+}
 .img-1 {
   /* img */
 
@@ -278,8 +294,14 @@ ul{
   line-height: 2.4;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-top: 188px;
 
   color: #212121;
+}
+.command-list{
+  display: flex;
+  gap: 50px;
+  padding-top: 50px;
 }
 .img-5 {
   /* img */
@@ -400,10 +422,12 @@ ul{
 
   color: #757575;
 }
-.footer {
+
+.footer{
   /* Footer bg */
 
   background: #2f303a;
+  
 }
 
 .logo12 {
