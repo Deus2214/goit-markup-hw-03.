@@ -136,6 +136,8 @@ ul{
   left: 1078px;
   right: 1078px;
   display: flex;
+  color: #2196f3;
+  
 }
 .section{
   margin: 94px 94px;
@@ -144,7 +146,7 @@ ul{
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
- margin: 174px 512px;
+ margin-top: 132px;
  padding-right: 8px;
  
   }
@@ -187,12 +189,7 @@ ul{
 .filters-8{
   display: flex;
 flex-wrap: wrap;
-  justify-content: space-around;
-  width: 1170px;
-height: 1360px;
-padding: 6px 22px;
-border-radius: 4px;
-margin: 64px 215px;
+margin-top: 56px;
 }
 .title-2 {
   /* Веб-сайти */
@@ -519,6 +516,7 @@ margin: 64px 215px;
   width: 1600px;
   /* Footer bg */
 background: #2f303a;
+margin-left: 400px;
 }
 
 .logo12 {

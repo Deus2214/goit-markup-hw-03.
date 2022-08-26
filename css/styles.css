@@ -1,9 +1,8 @@
-
-html{
+html {
   box-sizing: border-box;
 }
-*, 
-*::before, 
+*,
+*::before,
 *::after {
   box-sizing: inherit;
 }
@@ -21,29 +20,28 @@ html{
 .header {
   /* top line bg */
 
-
   background: #ffffff;
 }
-.container{
-   width: 1200px;
+.container {
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   outline: 2px;
 }
-.header-container{
+.header-container {
   align-items: center;
   display: flex;
   justify-content: space-between;
 }
 
-ul{
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.list-display{
+.list-display {
   display: flex;
   gap: 50px;
 }
@@ -105,9 +103,8 @@ ul{
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  
+
   color: #2196f3;
- 
 }
 
 .item-4 {
@@ -123,11 +120,11 @@ ul{
 }
 .section-1 {
   /* Bg */
-padding: 200px 0;
-text-align: center;
+  padding: 200px 0;
+  text-align: center;
   background: #2f303a;
 }
-.section-2{
+.section-2 {
   padding: 94px 0;
 }
 .title {
@@ -145,11 +142,11 @@ text-align: center;
   color: #ffffff;
 }
 .button {
-   color: #fff;
+  color: #fff;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
- 
+
   letter-spacing: 0.06em;
   font-family: inherit;
   font-weight: 700;
@@ -166,11 +163,11 @@ text-align: center;
 .main-title {
   /* Особливості */
 }
-.list-2{
- display: flex;
- gap: 50px;
+.list-2 {
+  display: flex;
+  gap: 50px;
 }
-.list-item{
+.list-item {
   width: 270px;
 }
 .uppertitle {
@@ -229,8 +226,6 @@ text-align: center;
   color: #757575;
 }
 
- 
-
 .text-2 {
   /* Так само консультація з широким активом значною мірою зумовлює. */
 
@@ -264,10 +259,10 @@ text-align: center;
 
   color: #212121;
 }
-.image-list{
+.image-list {
   display: flex;
- gap: 50px;
- padding-top: 50px;
+  gap: 50px;
+  padding-top: 50px;
 }
 .img-1 {
   /* img */
@@ -298,7 +293,7 @@ text-align: center;
 
   color: #212121;
 }
-.command-list{
+.command-list {
   display: flex;
   gap: 50px;
   padding-top: 50px;
@@ -423,11 +418,10 @@ text-align: center;
   color: #757575;
 }
 
-.footer{
+.footer {
   /* Footer bg */
 
   background: #2f303a;
-  
 }
 
 .logo12 {
