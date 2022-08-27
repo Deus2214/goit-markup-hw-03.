@@ -49,9 +49,6 @@ h5,
 p {
   margin: 0;
 }
-h3 {
-  margin-bottom: 50px;
-}
 
 .list-display {
   display: flex;
@@ -204,7 +201,7 @@ h3 {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
+  margin-bottom: 12px;
   color: #212121;
 }
 .uppertitle-3 {
@@ -262,6 +259,9 @@ h3 {
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+.section-text {
+  padding-bottom: 94px;
 }
 .paragraph {
   /* Чим ми займаємося */
@@ -345,7 +345,7 @@ h3 {
   font-size: 16px;
   line-height: 1.2;
   /* identical to box height */
-
+  margin-bottom: 12px;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -358,7 +358,7 @@ h3 {
   font-size: 16px;
   line-height: 1.2;
   /* identical to box height */
-
+  margin-bottom: 12px;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -367,7 +367,7 @@ h3 {
 
 .section-title3 {
   /* Микола Тарасов */
-
+  margin-bottom: 12px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -380,7 +380,7 @@ h3 {
 }
 .section-title4 {
   /* Михайло Єрмаков */
-
+  margin-bottom: 12px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -504,6 +504,6 @@ h3 {
 .list {
   list-style: none;
 }
-.list-group:not(last-child) {
-  margin-bottom: 9;
+.list-group:not(first-child){
+  margin-bottom: 9px;
 }
