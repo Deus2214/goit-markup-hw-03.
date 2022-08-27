@@ -65,10 +65,8 @@ ul {
 
   letter-spacing: 0.03em;
   /* identical to box height */
-  
-  
 }
-.logo-1{
+.logo-1 {
   color: #000000;
   text-decoration: none;
   font-family: "Raleway";
@@ -92,7 +90,8 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
 
-  color: #212121;}
+  color: #212121;
+}
 
 .item-2 {
   /* Контакти */
@@ -139,7 +138,6 @@ ul {
   justify-content: center;
   margin-top: 132px;
   gap: 8px;
-  
 }
 
 .filters .button.button-item {
@@ -533,7 +531,6 @@ ul {
 .address-list {
   /* м. Київ, пр-т Лесі Українки, 26 */
 
- 
   text-decoration: none;
   font-style: normal;
   font-size: 14px;
@@ -543,7 +540,8 @@ ul {
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;}
+  color: #ffffff;
+}
 
 .mail {
   text-decoration: none;
@@ -567,5 +565,6 @@ ul {
 
   color: rgba(255, 255, 255, 0.6);
 }
-.list-group:not(last-child) {margin-bottom: 9;}
- 
+.list-group:not(last-child) {
+  margin-bottom: 9;
+}
