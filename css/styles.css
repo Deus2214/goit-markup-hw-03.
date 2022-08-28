@@ -190,7 +190,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
+  margin-bottom: 12px;
   color: #212121;
 }
 .uppertitle-2 {
@@ -212,7 +212,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
+  margin-bottom: 12px;
   color: #212121;
 }
 .uppertitle-4 {
@@ -223,7 +223,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
+  margin-bottom: 12px;
   color: #212121;
 }
 .text {
@@ -300,11 +300,11 @@ p {
 
   font-weight: 700;
   font-size: 36px;
-  line-height: 2.4;
+  line-height: 1.4;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-
+  background-color: #ffffff;
   color: #212121;
 }
 .command-list {
@@ -504,6 +504,6 @@ p {
 .list {
   list-style: none;
 }
-.list-group:not(first-child){
-  margin-bottom: 9px;
+.list-group:not(:first-child) {
+  margin-top: 9px;
 }
