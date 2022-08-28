@@ -80,7 +80,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
 
-  color: #2196f3;
+  color: #212121;;
 }
 
 .item-1 {
@@ -111,8 +111,7 @@ ul {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
-  color: #2196f3;
+  color: #212121;
 }
 .item-4 {
   /* +38 096 111 11 11 */
@@ -159,7 +158,20 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
+.button{
+  padding: 6px 22px;
+  border-radius: 4px;
+  min-height: 38px;
+  border: transparent;
+  color: #fff;
+  background: #2196f3;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: inherit;
+}
 .button-2 {
   padding: 6px 22px;
   border-radius: 4px;
@@ -288,10 +300,10 @@ ul {
 
 .name-1 {
   /* Технокряк */
-  padding-bottom: 4px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
-  line-height: 2.4;
+  line-height: 2;
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
@@ -303,19 +315,19 @@ ul {
 
   font-weight: 700;
   font-size: 18px;
-  line-height: 2.4;
+  line-height: 2;
   /* identical to box height, or 200% */
-  padding-bottom: 4px;
+  margin-bottom: 4px;
   letter-spacing: 0.06em;
 
   color: #212121;
 }
 .name-3 {
   /* Ресторан Seafood */
-  padding-bottom: 4px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
-  line-height: 2.4;
+  line-height: 2;
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
@@ -324,10 +336,10 @@ ul {
 }
 .name-4 {
   /* Проєкт Prime */
-  padding-bottom: 4px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
-  line-height: 2.4;
+  line-height: 2;
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
@@ -336,10 +348,10 @@ ul {
 }
 .name-5 {
   /* Проєкт Boxes */
-  padding-bottom: 4px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
-  line-height: 2.4;
+  line-height: 2;
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
@@ -348,10 +360,10 @@ ul {
 }
 .name-6 {
   /* Inspiration has no Borders */
-  padding-bottom: 4px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
-  line-height: 2.4;
+  line-height: 2;
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
@@ -360,10 +372,10 @@ ul {
 }
 .name-7 {
   /* Видання Limited Edition */
-  padding-bottom: 4px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
-  line-height: 2.4;
+  line-height: 2;
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
@@ -372,7 +384,7 @@ ul {
 }
 .name-8 {
   /* Проєкт LAB */
-  padding-bottom: 4px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -384,7 +396,7 @@ ul {
 }
 .name-9 {
   /* Growing Business */
-  padding-bottom: 4px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
