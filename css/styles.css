@@ -111,6 +111,13 @@ li a:hover {
 
   color: #212121;
 }
+.item-3::before{
+  content: url(../images/envelope\ \(hover\).jpg);
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+ 
+}
 .item-3 {
   /* info@devstudio.com */
   text-decoration: none;
@@ -121,7 +128,12 @@ li a:hover {
 
   color: #212121;;
 }
-
+.item-4::before{
+  content: url(../images/Vector\ \(5\).jpg);
+width: 10px;
+height: 16px;
+margin-right: 10px;
+}
 .item-4 {
   /* +38 096 111 11 11 */
   text-decoration: none;
@@ -137,6 +149,11 @@ li a:hover {
   padding: 200px 0;
   text-align: center;
   background: #2f303a;
+  background-image: url(../images/Img.jpg);
+background-repeat: no-repeat;
+margin-left: 724px;
+margin-right: 724px;
+background-position: center;
 }
 .section-2 {
   padding: 94px 0;
@@ -188,6 +205,17 @@ li a:hover {
 .list-item {
   width: 270px;
 }
+.uppertitle::before{
+  content: url(../images/vector-1.jpg);
+  width: 
+  65.32px;
+  height: 
+  70px;
+ display: flex;
+ margin-bottom: 30px;
+ margin-left: auto;
+ margin-right: auto;
+}
 .uppertitle {
   /* УВАГА ДО ДЕТАЛЕЙ */
 
@@ -198,6 +226,17 @@ li a:hover {
   text-transform: uppercase;
   margin-bottom: 12px;
   color: #212121;
+}
+.uppertitle-2::before{
+  content: url(../images/vector-2.jpg);
+  width: 
+  65.32px;
+  height: 
+  70px;
+ display: flex;
+ margin-bottom: 30px;
+ margin-left: auto;
+ margin-right: auto;
 }
 .uppertitle-2 {
   /* ПУНКТУАЛЬНІСТЬ */
@@ -210,6 +249,14 @@ li a:hover {
   margin-bottom: 12px;
   color: #212121;
 }
+.uppertitle-3::before{
+  content: url(../images/vector-3.jpg);
+  width: 65.32px;
+  height: 70px;
+ display: flex;
+ margin-bottom: 30px;
+margin-left: auto;
+margin-right: auto;}
 .uppertitle-3 {
   /* ПЛАНУВАННЯ */
 
@@ -220,6 +267,16 @@ li a:hover {
   text-transform: uppercase;
   margin-bottom: 12px;
   color: #212121;
+}
+.uppertitle-4::before{
+  content: url(../images/Vector.jpg);
+  width: 65.32px;
+  height: 70px;
+ display: flex;
+ flex: content;
+ margin-bottom: 30px;
+ margin-left: auto;
+ margin-right: auto;
 }
 .uppertitle-4 {
   /* СУЧАСНІ ТЕХНОЛОГІЇ */
@@ -444,9 +501,13 @@ li a:hover {
 
 .footer {
   /* Footer bg */
-  padding-top: 60px;
-  padding-bottom: 60px;
+   width: auto;
   background: #2f303a;
+   padding-top: 60px;
+   padding-bottom: 60px;
+   margin-left: 724px;
+   margin-right: 724px;
+  
 }
 
 .logo12 {

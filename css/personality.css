@@ -516,15 +516,12 @@ ul {
   color: #757575;
 }
 .footer {
-  display: inline-block;
-  width: 1600px;
-  height: 252px;
-  /* Footer bg */
-  background: #2f303a;
-  margin-left: 400px;
-  margin-right: 400px;
+ background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  margin-left: 724px;
+  margin-right: 724px;
+
 }
 
 .logo12 {
