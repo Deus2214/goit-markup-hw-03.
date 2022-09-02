@@ -103,6 +103,9 @@ ul {
 
   color: #212121;
 }
+.mail-icon{
+  margin-right: 10px;
+  color: #2196f3;}
 
 .item-3 {
   /* info@devstudio.com */
@@ -113,6 +116,9 @@ ul {
   letter-spacing: 0.02em;
   color: #212121;
 }
+.tell-icon{
+  margin-right: 10px;
+  background: #757575;}
 .item-4 {
   /* +38 096 111 11 11 */
   text-decoration: none;

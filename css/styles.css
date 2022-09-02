@@ -111,13 +111,8 @@ li a:hover {
 
   color: #212121;
 }
-.item-3::before{
-  content: url(../images/envelope\ \(hover\).jpg);
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
- 
-}
+
+
 .item-3 {
   /* info@devstudio.com */
   text-decoration: none;
@@ -128,12 +123,11 @@ li a:hover {
 
   color: #212121;;
 }
-.item-4::before{
-  content: url(../images/Vector\ \(5\).jpg);
-width: 10px;
-height: 16px;
-margin-right: 10px;
+.mail-icon{
+ margin-right: 10px;
+ color: #2196f3;
 }
+
 .item-4 {
   /* +38 096 111 11 11 */
   text-decoration: none;
@@ -144,6 +138,10 @@ margin-right: 10px;
 
   color: #757575;
 }
+.tell-icon{
+  margin-right: 10px;
+  background: #757575;
+}
 .section-1 {
   /* Bg */
   padding: 200px 0;
@@ -151,9 +149,13 @@ margin-right: 10px;
   background: #2f303a;
   background-image: url(../images/Img.jpg);
 background-repeat: no-repeat;
-margin-left: 724px;
-margin-right: 724px;
+margin-left: auto;
+margin-right: auto;
 background-position: center;
+width: 1600px;
+height: 600px;
+
+
 }
 .section-2 {
   padding: 94px 0;
@@ -205,17 +207,22 @@ background-position: center;
 .list-item {
   width: 270px;
 }
-.uppertitle::before{
-  content: url(../images/vector-1.jpg);
-  width: 
-  65.32px;
-  height: 
-  70px;
- display: flex;
- margin-bottom: 30px;
- margin-left: auto;
- margin-right: auto;
+.icon-work{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-bottom: 30px;
 }
+.icon-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  
+}
+
 .uppertitle {
   /* УВАГА ДО ДЕТАЛЕЙ */
 
@@ -227,17 +234,8 @@ background-position: center;
   margin-bottom: 12px;
   color: #212121;
 }
-.uppertitle-2::before{
-  content: url(../images/vector-2.jpg);
-  width: 
-  65.32px;
-  height: 
-  70px;
- display: flex;
- margin-bottom: 30px;
- margin-left: auto;
- margin-right: auto;
-}
+
+
 .uppertitle-2 {
   /* ПУНКТУАЛЬНІСТЬ */
 
@@ -249,14 +247,7 @@ background-position: center;
   margin-bottom: 12px;
   color: #212121;
 }
-.uppertitle-3::before{
-  content: url(../images/vector-3.jpg);
-  width: 65.32px;
-  height: 70px;
- display: flex;
- margin-bottom: 30px;
-margin-left: auto;
-margin-right: auto;}
+
 .uppertitle-3 {
   /* ПЛАНУВАННЯ */
 
@@ -268,16 +259,7 @@ margin-right: auto;}
   margin-bottom: 12px;
   color: #212121;
 }
-.uppertitle-4::before{
-  content: url(../images/Vector.jpg);
-  width: 65.32px;
-  height: 70px;
- display: flex;
- flex: content;
- margin-bottom: 30px;
- margin-left: auto;
- margin-right: auto;
-}
+
 .uppertitle-4 {
   /* СУЧАСНІ ТЕХНОЛОГІЇ */
 
@@ -385,21 +367,44 @@ margin-right: auto;}
   /* img */
   background: url(5844.jpg);
   border-radius: 0px;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .img-7 {
   background: url(16166.jpg);
   border-radius: 0px;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+
 .img-8 {
   /* img */
 
   background: url(4853.jpg);
   border-radius: 0px;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.social-list{
+  display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 10px;
+background-color: #f5f4fa;
+   
+    
+}
+.sociall-link{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.icons-svg{
+  color: #757575;
 }
 
 .contacts-main {
   padding-top: 30px;
   padding-bottom: 30px;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .section-title {
   /* Ігор Дем'яненко */
@@ -498,18 +503,70 @@ margin-right: auto;}
 
   color: #757575;
 }
+.clients {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 50px;}
 
+
+.brand-icons{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 94px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+user agent stylesheet
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
 .footer {
   /* Footer bg */
    width: auto;
   background: #2f303a;
    padding-top: 60px;
    padding-bottom: 60px;
-   margin-left: 724px;
-   margin-right: 724px;
-  
+   margin-left: auto;
+   margin-right: auto;
+   width: 1600px;
+   height: 252px;
 }
-
+.footer-box{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  display: flex;
+    align-items: center;
+}
+.footer-text {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+ }
+.footer-icons{
+  display: flex;
+    gap: 10px;
+}
 .logo12 {
   text-decoration: none;
   font-weight: 700;
