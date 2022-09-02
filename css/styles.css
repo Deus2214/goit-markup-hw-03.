@@ -141,6 +141,7 @@ li a:hover {
 .tell-icon{
   margin-right: 10px;
   background: #757575;
+ 
 }
 .section-1 {
   /* Bg */
@@ -549,24 +550,27 @@ ul {
    height: 252px;
 }
 .footer-box{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 12px;
   display: flex;
     align-items: center;
+    flex-direction: column;    
 }
+
 .footer-text {
-  color: var(--primary-text-color);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
  }
 .footer-icons{
   display: flex;
-    gap: 10px;
+  align-items: center;
+  gap: 10px;
 }
+  
+
 .logo12 {
   text-decoration: none;
   font-weight: 700;
