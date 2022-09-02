@@ -78,7 +78,8 @@ p {
 }
 
 li a:hover {
-  color: #2196f3;}
+  color: #2196f3;
+}
 
 .item {
   /* Студія */
@@ -89,7 +90,6 @@ li a:hover {
   letter-spacing: 0.02em;
 
   color: #212121;
-  ;
 }
 
 .item-1 {
@@ -112,7 +112,6 @@ li a:hover {
   color: #212121;
 }
 
-
 .item-3 {
   /* info@devstudio.com */
   text-decoration: none;
@@ -121,11 +120,11 @@ li a:hover {
   line-height: 1.2;
   letter-spacing: 0.02em;
 
-  color: #212121;;
+  color: #212121;
 }
-.mail-icon{
- margin-right: 10px;
- color: #2196f3;
+.mail-icon {
+  margin-right: 10px;
+  color: #2196f3;
 }
 
 .item-4 {
@@ -138,10 +137,9 @@ li a:hover {
 
   color: #757575;
 }
-.tell-icon{
+.tell-icon {
   margin-right: 10px;
   background: #757575;
- 
 }
 .section-1 {
   /* Bg */
@@ -149,14 +147,12 @@ li a:hover {
   text-align: center;
   background: #2f303a;
   background-image: url(../images/Img.jpg);
-background-repeat: no-repeat;
-margin-left: auto;
-margin-right: auto;
-background-position: center;
-width: 1600px;
-height: 600px;
-
-
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  width: 1600px;
+  height: 600px;
 }
 .section-2 {
   padding: 94px 0;
@@ -208,20 +204,19 @@ height: 600px;
 .list-item {
   width: 270px;
 }
-.icon-work{
+.icon-work {
   display: flex;
   gap: 30px;
   justify-content: center;
   padding-bottom: 30px;
 }
-.icon-list{
+.icon-list {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
-  
 }
 
 .uppertitle {
@@ -235,7 +230,6 @@ height: 600px;
   margin-bottom: 12px;
   color: #212121;
 }
-
 
 .uppertitle-2 {
   /* ПУНКТУАЛЬНІСТЬ */
@@ -383,22 +377,20 @@ height: 600px;
   border-radius: 0px;
   box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-.social-list{
+.social-list {
   display: flex;
-    gap: 30px;
-    justify-content: center;
-    padding-top: 10px;
-background-color: #f5f4fa;
-   
-    
+  gap: 30px;
+  justify-content: center;
+  padding-top: 10px;
+  background-color: #f5f4fa;
 }
-.sociall-link{
+.sociall-link {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
-.icons-svg{
+.icons-svg {
   color: #757575;
 }
 
@@ -510,10 +502,10 @@ background-color: #f5f4fa;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  margin-bottom: 50px;}
+  margin-bottom: 50px;
+}
 
-
-.brand-icons{
+.brand-icons {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -525,11 +517,12 @@ ul {
   margin: 0;
   padding: 0;
 }
-*, ::after, ::before {
+*,
+::after,
+::before {
   box-sizing: border-box;
 }
-user agent stylesheet
-ul {
+user agent stylesheet ul {
   display: block;
   list-style-type: disc;
   margin-block-start: 1em;
@@ -540,36 +533,34 @@ ul {
 }
 .footer {
   /* Footer bg */
-   width: auto;
+  width: auto;
   background: #2f303a;
-   padding-top: 60px;
-   padding-bottom: 60px;
-   margin-left: auto;
-   margin-right: auto;
-   width: 1600px;
-   height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  height: 252px;
 }
-.footer-box{
+.footer-box {
   display: flex;
-    align-items: center;
-    flex-direction: column;    
+  align-items: center;
+  flex-direction: column;
 }
 
 .footer-text {
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
- }
-.footer-icons{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-icons {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-  
 
 .logo12 {
   text-decoration: none;
