@@ -80,8 +80,8 @@ p {
 li a:hover {
   color: #2196f3;
 }
- li a:focus{
-color: #757575;
+li a:focus {
+  color: #757575;
 }
 .item {
   /* Студія */
@@ -148,7 +148,12 @@ color: #757575;
   padding: 200px 0;
   text-align: center;
   background: #2f303a;
-  background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Img.jpg);
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
@@ -214,12 +219,12 @@ color: #757575;
 }
 .icon-list {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 270px;
-    height: 120px;
-    background-color: #f5f4fa;
-    margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
 }
 
 .uppertitle {
@@ -387,7 +392,6 @@ color: #757575;
   margin-top: 10px;
 }
 
-
 .icons-svg {
   color: #757575;
 }
@@ -455,7 +459,7 @@ color: #757575;
 
   line-height: 1.2;
   /* identical to box height */
-margin-bottom: auto;
+  margin-bottom: auto;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -494,26 +498,25 @@ margin-bottom: auto;
 
   color: #757575;
 }
-.social-icon{
- fill: #757575;
+.social-icon {
+  fill: #757575;
 }
 
-.social-icon:hover{
-  fill: #2f303a;}
-.social-link{
+.social-icon:hover {
+  fill: #2f303a;
+}
+.social-link {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 44px;
   height: 44px;
   background-color: var(--primary-text-color);
-border-radius: 50%;
-
+  border-radius: 50%;
 }
-.social-link-2{
-
+.social-link-2 {
 }
-.social-link:hover:focus{
+.social-link:hover:focus {
   fill: #757575;
   background-color: #2196f3;
 }
@@ -536,12 +539,12 @@ border-radius: 50%;
   fill: #757575;
   border-radius: 100%;
 }
-.brand-icons:focus{
+.brand-icons:focus {
   fill: #2196f3;
   background: #f5f4fa;
-  box-sizing:content-box;
+  box-sizing: content-box;
 }
-.brand-icons:hover{
+.brand-icons:hover {
   fill: #2196f3;
 }
 ul {
@@ -659,8 +662,7 @@ user agent stylesheet ul {
 .list-group:not(:first-child) {
   margin-top: 9px;
 }
-.footer-container{
+.footer-container {
   display: flex;
   align-items: baseline;
- 
 }
