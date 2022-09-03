@@ -80,7 +80,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
 
-  color: #212121;;
+  color: #212121;
 }
 
 .item-1 {
@@ -118,7 +118,8 @@ ul {
 }
 .tell-icon {
   margin-right: 10px;
-  fill: currentColor;}
+  fill: currentColor;
+}
 
 .item-4 {
   /* +38 096 111 11 11 */
@@ -165,7 +166,7 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.button{
+.button {
   padding: 6px 22px;
   border-radius: 4px;
   min-height: 38px;
@@ -192,7 +193,7 @@ ul {
   line-height: 1.62;
   letter-spacing: inherit;
 }
-.button-2:hover:focus{
+.button-2:hover:focus {
   background: #2196f3;
 }
 .filters .button .button-2:hover,
@@ -526,12 +527,11 @@ ul {
   color: #757575;
 }
 .footer {
- background: #2f303a;
+  background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
   margin-left: 724px;
   margin-right: 724px;
-
 }
 
 .logo12 {
