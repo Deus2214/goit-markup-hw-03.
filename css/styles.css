@@ -515,10 +515,14 @@ li a:focus {
   border-radius: 50%;
 }
 .social-link-2 {
+  fill: #757575;
 }
+.social-link-2:hover:focus {
+  fill: #2196f3;
+  background-color: #f5f4fa;}
 .social-link:hover:focus {
   fill: #757575;
-  background-color: #2196f3;
+  background-color:  #2196f3;
 }
 .clients {
   font-style: normal;
