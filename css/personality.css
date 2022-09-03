@@ -103,10 +103,10 @@ ul {
 
   color: #212121;
 }
-.mail-icon{
+.mail-icon {
   margin-right: 10px;
-  color: #2196f3;}
-
+  fill: currentColor;
+}
 .item-3 {
   /* info@devstudio.com */
   text-decoration: none;
@@ -116,9 +116,10 @@ ul {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.tell-icon{
+.tell-icon {
   margin-right: 10px;
-  background: #757575;}
+  fill: currentColor;}
+
 .item-4 {
   /* +38 096 111 11 11 */
   text-decoration: none;
@@ -190,6 +191,9 @@ ul {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: inherit;
+}
+.button-2:hover:focus{
+  background: #2196f3;
 }
 .filters .button .button-2:hover,
 .filters .button .button-2:focus {

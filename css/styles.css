@@ -591,6 +591,7 @@ user agent stylesheet ul {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+    color:white;
 }
 .footer-icons {
   display: flex;
